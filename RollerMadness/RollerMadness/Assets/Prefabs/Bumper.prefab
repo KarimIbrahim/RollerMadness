@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33605067925449720}
   - component: {fileID: 23661620497150446}
   - component: {fileID: 65459946054169122}
+  - component: {fileID: 95672786324852918}
   m_Layer: 0
   m_Name: Bumper
   m_TagString: Untagged
@@ -56,7 +57,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 40048d496a0ebfa46b9cb335d86d0557, type: 2}
+  - {fileID: 2100000, guid: c4e073a7174fb0149b330a22e3d215f2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -95,3 +96,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4, y: 1, z: 4}
   m_Center: {x: 0, y: -0.4999997, z: 0}
+--- !u!95 &95672786324852918
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1537863934101032}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5f469b286c7143e4d9c178e35c2de2b1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1

@@ -65,6 +65,8 @@
      <Compile Include="Assets\Scripts\TriggerLevelLoad.cs" />
      <Compile Include="Assets\Scripts\UIButtonLevelLoad.cs" />
      <Compile Include="Assets\Scripts\UIButtonQuitGame.cs" />
+     <None Include="Assets\Textures\nec_hell\readme.txt" />
+     <None Include="Assets\Textures\nec_hell\nec_hell.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
